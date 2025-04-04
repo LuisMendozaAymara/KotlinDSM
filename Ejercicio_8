@@ -1,0 +1,11 @@
+fun main() {
+    println(detallesClima("Ankara",27,31,82)+"\n")
+    println(detallesClima("Tokyo",32,36,10)+"\n")
+    println(detallesClima("Cape Town",59,64,2)+"\n")
+    println(detallesClima("Guatemala City",50,55,7)+"\n")
+   
+}
+
+fun detallesClima(city: String, lowTemp: Int, highTemp: Int, chance: Int): String {
+    return "City: $city\nLow temperature: $lowTemp , High Temperature: $highTemp\nChance of rain: $chance%"
+}
