@@ -1,0 +1,17 @@
+fun main() {
+    val firstNumber = 10
+    val secondNumber = 5
+    val thirdNumber = 8
+    
+    val result = add(firstNumber, secondNumber)
+    val anotherResult = add(firstNumber, thirdNumber)
+
+    println("$firstNumber + $secondNumber = $result")
+    println("$firstNumber + $thirdNumber = $anotherResult")
+}
+
+fun add(n1: Int, n2:Int): Int {
+    val ad = n1 + n2
+    return ad
+}
+// Define add() function below this line
